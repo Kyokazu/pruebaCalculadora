@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div>
+            <h1 class="display-4 text-xs-center m-b-2">Calculadora</h1>
+            <div class="jumbotron col-xl-4 col-xl-offset-4 col-md-6 col-md-offset-3 p-x-3 p-y-3 col-xs-12 bg-inverse">
+                <div class="input-group input-group-lg col-xs-12 p-a-0">
+                    <input class="form-control text-xs-right" id="numberscreen" type="text" value="0" / disabled>
+                </div>
+                <div class="col-xs-7 calc__clearpad p-a-0 m-t-2">
+                    <button type="button" class="btn btn-outline-danger" id="limpiar">Limpiar la calculadora</button>
+                </div>
+                <div class="col-xs-7 calc__numberpad p-a-0">
+                    <button type="button" class="btn btn-outline-secondary" id="7">7</button>
+                    <button type="button" class="btn btn-outline-secondary" id="8">8</button>
+                    <button type="button" class="btn btn-outline-secondary" id="9">9</button>
+                    <button type="button" class="btn btn-outline-info" id="suma">+ </button>
+                    <button type="button" class="btn btn-outline-info" id="division">/ </button>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary" id="4">4</button>
+                    <button type="button" class="btn btn-outline-secondary" id="5">5</button>
+                    <button type="button" class="btn btn-outline-secondary" id="6">6</button>
+                    <button type="button" class="btn btn-outline-info" id="resta">- </button>
+                    <button type="button" class="btn btn-outline-info" id="modulo">% </button>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary" id="1">1</button>
+                    <button type="button" class="btn btn-outline-secondary" id="2">2</button>
+                    <button type="button" class="btn btn-outline-secondary" id="3">3</button>
+                    <button type="button" class="btn btn-outline-info" id="raiz">√</button>
+                    <button type="button" class="btn btn-outline-info" id="multiplicacion">*</button>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary" id="0">0  </button>
+                    <button type="button" class="btn btn-outline-secondary" id=".">.</button>
+                    <button type="button" class="btn btn-outline-info btn-lg" id="resultado"> =</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
